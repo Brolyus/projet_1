@@ -51,7 +51,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 
 
     .event{
-        display: flex;
+        display: flex ;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
@@ -77,30 +77,48 @@ h2{
     text-align: center;
 }
 
+/* Mise en page intro version mobile*/
 .intro {
     display: flex;
     flex-direction: column ;
     align-items: center;
+    padding: 25px ;
+}
+
+.intro img {
+    padding: 20px ;
 }
 
 .intro p {
-    width: 80% ;
+    width: 75% ;
+    padding: 25px ;
+    
 }
+/* fin mise en page intro */
 
-hr {
-    width: 60% ;
-}
-
-
+/* mise en page locaux version mobile */
 .locaux {
-    display : flex ;
+    
+    padding: 25px ;
+}
+
+.locaux img {
+    padding : 20px ;
+}
+
+.locaux div{
+    width: 100% ;    
+    display: flex ;
     flex-direction: column ;
     align-items: center ;
+    padding: 25px ;
 }
 
 .locaux p {
-    width : 80% ;
+    width : 75% ;
+    padding: 25px ;
 }
+/*fin mise en page locaux version mobile */
 
 @media only screen and (max-width: 980px) {
 .content{width:90%;}
@@ -150,8 +168,7 @@ section {max-width: 90%;}
 .art_resid_pair p {
     border-radius: 10%;
     border: 5px;
-    text-align: right;
-    text
+    text-align: right;    
     background-color: #D9EFFF;
 }
 
@@ -170,6 +187,25 @@ nav{top:47px;}
 @media only screen and (max-width: 320px) {
 h1 {padding: 20px 0px;}
 }
-@media screen and (min: 960px) {
+
+/* mise en page desktop locaux */
+@media only screen and (min-width: 960px) {
+
+.imlopaire {
+    width: 100% ;
+    display: flex ;
+    flex-direction: row ;
+    align-items: center ;
+    padding: 25 ;
+}
+
+.imloimpaire {
+    width: 100% ;
+    display : flex ;
+    flex-direction : row-reverse ;
+    align-items: center ; 
+    padding : 25px ;
+  }
 
 }
+
