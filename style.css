@@ -3,6 +3,35 @@
 }
 
 
+h2{
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.intro p {
+    width: 80% ;
+} 
+
+hr {
+    width: 60% ;
+}
+
+
+.locaux {
+    display : flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+
+.locaux p {
+    width : 80% ;
+}
+
 
 
 @media screen and (min: 960px) {
