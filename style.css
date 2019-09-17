@@ -67,9 +67,37 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
         max-width: 100%;
         height: auto;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
+
+    .title_event{
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
     .date{
         margin-bottom: 0;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 3vw;
+
+    }
+
+    .p_event{
+        font-size: 3vw;
+    }
+
+    hr{
+        margin: 20px auto 20px auto;
+    }
+
+    .other_event{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    a{
+        color: #60E6DA
     }
 }
 
@@ -198,6 +226,7 @@ h1 {padding: 20px 0px;}
     align-items: center ;
     padding: 25 ;
 }
+<<<<<<< HEAD
 
 .imloimpaire {
     width: 100% ;
@@ -209,3 +238,21 @@ h1 {padding: 20px 0px;}
 
 }
 
+=======
+#fotfot{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 10%;
+  align-items: center;
+
+}
+#contact{
+  background-color: #60E6DA;
+  text-align: center;
+  padding-top: 5%;
+  justify-content: flex-start;
+
+}
+>>>>>>> f749598c27aea0c6fb7b2ec1c458770041f7af88
