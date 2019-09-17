@@ -128,35 +128,43 @@ section {max-width: 90%;}
 
 #residents {
     margin: 0 10%;
+    padding: 1%;
 }
+
 .art_resid_impair {
+    background-color: #60E6DA;
     display: flex;
+    width: 90%;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .art_resid_impair p {
-    padding-left: 5px;
-    background-color: #60E6DA;
-    border-radius: 10%;
+    margin-left: 10px;
+    /* background-color: #60E6DA; */
     text-align: center;
-
+    width: 60%;
 }
+
 .art_resid_pair {
+    background-color: #D9EFFF;
     display: flex;
+    width: 90%;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
 }
 .art_resid_pair p {
-    border-radius: 10%;
-    border: 5px;
-    text-align: right;
-    text
-    background-color: #D9EFFF;
+    margin-right: 10px;
+    text-align: center;
+    /* background-color: #D9EFFF; */
+    width: 60%;
 }
 
 #residents h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 
