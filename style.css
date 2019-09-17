@@ -40,6 +40,68 @@ nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border
 nav ul li a i{color:#60E6DA; padding-right:13px;}
 }
 
+@media screen and (max-width: 960px) {
+
+    .news{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .event{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .event p{
+        width: 90%;
+        text-align: justify;
+    }
+
+    .event img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .date{
+        margin-bottom: 0;
+    }
+}
+
+h2{
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.intro p {
+    width: 80% ;
+}
+
+hr {
+    width: 60% ;
+}
+
+
+.locaux {
+    display : flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+
+.locaux p {
+    width : 80% ;
+}
+
 @media only screen and (max-width: 980px) {
 .content{width:90%;}
 }
@@ -53,6 +115,51 @@ h1 span{display:block;}
 section {max-width: 90%;}
 }
 
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin p {
+    width: 80%;
+    background-color: #60E6DA;
+}
+
+#residents {
+    margin: 0 10%;
+}
+.art_resid_impair {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.art_resid_impair p {
+    padding-left: 5px;
+    background-color: #60E6DA;
+    border-radius: 10%;
+    text-align: center;
+
+}
+.art_resid_pair {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.art_resid_pair p {
+    border-radius: 10%;
+    border: 5px;
+    text-align: right;
+    text
+    background-color: #D9EFFF;
+}
+
+#residents h2 {
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 360px) {
 h1{font-size:20px;}
 label{padding:5px 0px;}
@@ -64,9 +171,5 @@ nav{top:47px;}
 h1 {padding: 20px 0px;}
 }
 @media screen and (min: 960px) {
-
-
-}
-footer{
 
 }
