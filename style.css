@@ -4,8 +4,57 @@
 
 
 
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-@media screen and (min: 960px) {
+.admin p {
+    width: 80%;
+    background-color: #60E6DA;
+}
+
+#residents {
+    margin: 0 10%;
+}
+.art_resid_impair {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.art_resid_impair p {
+    padding-left: 5px;
+    background-color: #60E6DA;
+    border-radius: 10%;
+    text-align: center;
+
+}
+.art_resid_pair {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.art_resid_pair p {
+    border-radius: 10%;
+    border: 5px;
+    text-align: right;
+    text
+    background-color: #D9EFFF;
+}    
+
+#residents h2 {
+    text-align: center;
+}
+
+
+
+hr {
+    width: 60%;
+}
+
+@media screen and (min-width: 960px) {
 
 
 
