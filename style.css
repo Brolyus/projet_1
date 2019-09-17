@@ -1,11 +1,11 @@
 *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
 body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
 section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
-h1{margin:0px auto; display:table; font-size:26px; padding:40px 0px; color:#75737E; text-align:center;}
+h1{margin:0px auto; display:table; font-size:26px; padding:20px 0px; color:#75737E; text-align:center;}
 h1 span{font-weight:500;}
 
-header{width:100%; display:table; background-color:#60E6DA; margin-bottom:50px;}
-#logo{float:left; font-size:24px; text-transform:uppercase; color:#75737E; font-weight:600; padding:20px 0px;}
+header{width:100%; display:table; background-color:#60E6DA; margin-bottom:10px;}
+
 nav{width:auto; float:right;}
 nav ul{display:table; float:right;}
 nav ul li{float:left;}
@@ -20,16 +20,6 @@ nav ul li a i{padding-right:10px; color:#75737E; transition: all 0.5s ease 0s;}
 .toggle-menu ul li:last-child{margin-bottom:0px;}
 
 input[type=checkbox], label{display:none;}
-
-.content{display:table; margin-bottom:60px; width:900px;}
-.content h2{font-size:18px; font-weight:500; color:#75737E; border-bottom:1px solid #60E6DA; display:table; padding-bottom:10px; margin-bottom:10px;}
-.content p{font-size:14px; line-height:22px; color:#677A78; text-align:justify;}
-
-footer{display:table; padding-bottom:30px; width:100%;}
-.social{margin:0px auto; display:table; display:table;}
-.social li{float:left; padding:0px 10px;}
-.social li a{color:#75737E; transition: all 0.5s ease 0s;}
-.social li a:hover{color:#60E6DA; transition: all 0.5s ease 0s;}
 
 @media only screen and (max-width: 1440px) {
 section{max-width:95%;}
@@ -66,7 +56,7 @@ section {max-width: 90%;}
 @media only screen and (max-width: 360px) {
 h1{font-size:20px;}
 label{padding:5px 0px;}
-#logo{font-size: 20px;}
+
 nav{top:47px;}
 }
 
@@ -76,8 +66,7 @@ h1 {padding: 20px 0px;}
 @media screen and (min: 960px) {
 
 
-
-
-
+}
+footer{
 
 }
