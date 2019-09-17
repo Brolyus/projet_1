@@ -67,9 +67,37 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
         max-width: 100%;
         height: auto;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
+
+    .title_event{
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
     .date{
         margin-bottom: 0;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 3vw;
+
+    }
+
+    .p_event{
+        font-size: 3vw;
+    }
+
+    hr{
+        margin: 20px auto 20px auto;
+    }
+
+    .other_event{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    a{
+        color: #60E6DA
     }
 }
 
