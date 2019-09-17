@@ -173,3 +173,19 @@ h1 {padding: 20px 0px;}
 @media screen and (min: 960px) {
 
 }
+#fotfot{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 10%;
+  align-items: center;
+
+}
+#contact{
+  background-color: #60E6DA;
+  text-align: center;
+  padding-top: 5%;
+  justify-content: flex-start;
+
+}
