@@ -167,15 +167,11 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     text-align: center;
 
 }
+
 .group_img_admin{
     justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
@@ -225,12 +221,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     flex-direction: row ;
     align-items: center ;
     padding: 25px 0 ;
-<<<<<<< HEAD
-
-}
-=======
     }
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 
     .imloimpaire {
     width: 100% ;
@@ -249,13 +240,14 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         width: 200px;
         height: 280px;
     }
-.imloimpaire p {
-    margin-right: 5% ;
-}
 
-.imlopaire p {
+    .imloimpaire p {
+    margin-right: 5% ;
+    }
+
+    .imlopaire p {
     margin-left: 5% ;
-}
+    }
 
 }
 
@@ -331,7 +323,6 @@ ul {
   display: flex;
   justify-content: flex-start;
   border-style: inset;
-<<<<<<< HEAD
   background-color: #75737E;
 
 }
@@ -339,14 +330,12 @@ ul {
 #logoquar{
   width: 150px;
   height: 150px;
-=======
 }
 
 /* mise en page news */
 
 .event{
     flex-direction: row;
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 }
 
 .image_event{
