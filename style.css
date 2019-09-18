@@ -1,3 +1,5 @@
+/* Burger menu */
+
 *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
 body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
 section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
@@ -17,7 +19,7 @@ nav ul li a i{padding-right:10px; color:#75737E; transition: all 0.5s ease 0s;}
 
 .toggle-menu ul{display:table; width:25px;}
 .toggle-menu ul li{width:100%; height:3px; background-color:#75737E; margin-bottom:4px;}
-.toggle-menu ul li:last-child{margin-bottom:0px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
 
 input[type=checkbox], label{display:none;}
 
@@ -40,8 +42,12 @@ nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border
 nav ul li a i{color:#60E6DA; padding-right:13px;}
 }
 
-@media screen and (max-width: 960px) {
+/* fin buger menu */
 
+
+/* @media screen and (max-width: 960px) {   à supprimer*/
+
+/* mise en page news */    
     .news{
         display: flex;
         justify-content: center;
@@ -87,51 +93,53 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
         font-size: 3vw;
     }
 
-    hr{
-        margin: 20px auto 20px auto;
-    }
 
     .other_event{
         text-align: center;
         font-size: 3vw;
     }
 
-    a{
+    .link_event{
         color: #60E6DA
     }
 }
 
-h2{
-    text-align: center;
-}
+/* fin mise en page news */
+
+
 
 /* Mise en page intro version mobile*/
 .intro {
     display: flex;
     flex-direction: column ;
     align-items: center;
-    padding: 25px ;
+    padding: 25px 0 ;
 }
 
 .intro img {
-    padding: 20px ;
+    padding: 20px 0 ;
 }
 
 .intro p {
     width: 75% ;
-    padding: 25px ;
+    padding: 25px 0 ;
     
 }
 /* fin mise en page intro */
 
 /* mise en page locaux version mobile */
+
+.locaux h2 {
+    text-align: center ;
+}
+
 .locaux {
     
-    padding: 25px ;
+    padding: 25px 0 ;
 }
 
 .locaux img {
-    padding : 20px ;
+    padding : 20px 0 ;
 }
 
 .locaux div{
@@ -139,16 +147,17 @@ h2{
     display: flex ;
     flex-direction: column ;
     align-items: center ;
-    padding: 25px ;
+    padding: 25px 0 ;
 }
 
 .locaux p {
     width : 75% ;
-    padding: 25px ;
+    padding: 25px 0 ;
 }
 /*fin mise en page locaux version mobile */
 
-@media only screen and (max-width: 980px) {
+
+/* @media only screen and (max-width: 980px) {
 .content{width:90%;}
 }
 
@@ -159,7 +168,9 @@ h1 span{display:block;}
 
 @media only screen and (max-width: 480px) {
 section {max-width: 90%;}
-}
+} */
+
+/*mise en page residents */
 
 .admin {
     display: flex;
@@ -213,8 +224,9 @@ section {max-width: 90%;}
     margin-bottom: 10px;
 }
 
+/*fin mise en page resident */
 
-@media only screen and (max-width: 360px) {
+/* @media only screen and (max-width: 360px) {
 h1{font-size:20px;}
 label{padding:5px 0px;}
 
@@ -223,7 +235,8 @@ nav{top:47px;}
 
 @media only screen and (max-width: 320px) {
 h1 {padding: 20px 0px;}
-}
+} */
+
 
 /* mise en page desktop locaux */
 @media only screen and (min-width: 960px) {
@@ -246,6 +259,10 @@ h1 {padding: 20px 0px;}
 
 }
 
+/* fin mise en page desktop locaux */
+
+/*footer */
+
 #fotfot{
   display: flex;
   height: 100px;
@@ -262,3 +279,5 @@ h1 {padding: 20px 0px;}
   justify-content: flex-start;
 
 }
+
+/* fin footer */
