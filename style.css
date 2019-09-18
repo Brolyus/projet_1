@@ -45,8 +45,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 /* fin buger menu */
 
 
-/* @media screen and (max-width: 960px) {   à supprimer*/
-
 /* mise en page news */
   #news{
         display: flex;
@@ -97,15 +95,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 
 /* Mise en page intro version mobile*/
-<<<<<<< HEAD
-#intro {
-    display: flex;
-=======
 
-.intro {
+#intro {
     width: 100% ;
     display: flex ;
->>>>>>> 81d1151bb52167114c381cb0e17fe7983bf0b6f8
     flex-direction: column ;
     align-items: center ;
     padding: 25px 0 ;
@@ -142,7 +135,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     padding : 20px 0 ;
 }
 
-#locaux div{
+.imlopaire , .imloimpaire {
     width: 100% ;
     display: flex ;
     flex-direction: column ;
@@ -157,18 +150,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 /*fin mise en page locaux version mobile */
 
 
-/* @media only screen and (max-width: 980px) {
-.content{width:90%;}
-}
 
-@media only screen and (max-width: 568px) {
-h1{padding:25px 0px;}
-h1 span{display:block;}
-}
-
-@media only screen and (max-width: 480px) {
-section {max-width: 90%;}
-} */
 
 /*mise en page residents */
 
@@ -225,16 +207,7 @@ section {max-width: 90%;}
 
 /*fin mise en page resident */
 
-/* @media only screen and (max-width: 360px) {
-h1{font-size:20px;}
-label{padding:5px 0px;}
 
-nav{top:47px;}
-}
-
-@media only screen and (max-width: 320px) {
-h1 {padding: 20px 0px;}
-} */
 
 
 /* mise en page desktop locaux */
@@ -245,8 +218,7 @@ h1 {padding: 20px 0px;}
     display: flex ;
     flex-direction: row ;
     align-items: center ;
-    padding: 25px 0 ;
-    
+    padding: 25px 0 ;    
 }
 
 .imloimpaire {
@@ -256,6 +228,14 @@ h1 {padding: 20px 0px;}
     align-items: center ; 
     padding : 25px 0 ;
   }
+
+.imloimpaire p {
+    margin-right: 5% ;
+}
+
+.imlopaire p {
+    margin-left: 5% ;
+}
 
 }
 
