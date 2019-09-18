@@ -100,7 +100,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
     }
 
     .link_event{
-        color: #60E6DA
+        color: #60E6DA ;
     }
 }
 
@@ -109,11 +109,14 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 
 
 /* Mise en page intro version mobile*/
+
 .intro {
-    display: flex;
+    width: 100% ;
+    display: flex ;
     flex-direction: column ;
-    align-items: center;
+    align-items: center ;
     padding: 25px 0 ;
+    
 }
 
 .intro img {
@@ -123,7 +126,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 .intro p {
     width: 75% ;
     padding: 25px 0 ;
-    
+    text-align: center;
 }
 /* fin mise en page intro */
 
@@ -246,7 +249,7 @@ h1 {padding: 20px 0px;}
     display: flex ;
     flex-direction: row ;
     align-items: center ;
-    padding: 25 ;
+    padding: 25px 0 ;
 }
 
 .imloimpaire {
@@ -254,7 +257,7 @@ h1 {padding: 20px 0px;}
     display : flex ;
     flex-direction : row-reverse ;
     align-items: center ; 
-    padding : 25px ;
+    padding : 25px 0 ;
   }
 
 }
