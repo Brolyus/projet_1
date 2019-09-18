@@ -44,7 +44,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* fin buger menu */
 
-
 /* mise en page news */
   #news{
         display: flex;
@@ -92,8 +91,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* fin mise en page news */
 
-
-
 /* Mise en page intro version mobile*/
 
 #intro {
@@ -115,8 +112,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     text-align: center;
 
 }
-
-
 
 /* fin mise en page intro */
 
@@ -183,6 +178,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 .art_resid_impair p {
     margin-left: 10px;
     text-align: center;
+    color: white;
 }
 
 .art_resid_pair {
