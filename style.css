@@ -102,7 +102,6 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
     .link_event{
         color: #60E6DA
     }
-}
 
 /* fin mise en page news */
 
@@ -182,6 +181,9 @@ section {max-width: 90%;}
     width: 80%;
     background-color: #60E6DA;
 }
+.group_img_admin{
+    justify-content: space-evenly;
+}
 
 #residents {
     margin: 0 10%;
@@ -222,6 +224,10 @@ section {max-width: 90%;}
 #residents h2 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+.photos_resid {
+    opacity: 0.8
 }
 
 /*fin mise en page resident */
