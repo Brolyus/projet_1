@@ -2,11 +2,11 @@
 
 *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
 body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
-section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+#burger{width:100%; max-width:100%; margin:0px auto; display:table; position:relative;}
 h1{margin:0px auto; display:table; font-size:26px; padding:20px 0px; color:#75737E; text-align:center;}
 h1 span{font-weight:500;}
 
-header{width:100%; display:table; background-color:#60E6DA; margin-bottom:10px;}
+header{width:100%; display:table; background-color:#60E6DA; margin-bottom:10px; }
 
 nav{width:auto; float:right;}
 nav ul{display:table; float:right;}
@@ -15,16 +15,16 @@ nav ul li:last-child{padding-right:0px;}
 nav ul li a{color:#75737E; font-size:12px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
 nav ul li a:hover{background-color:#75737E; color:#60E6DA; transition: all 0.5s ease 0s;}
 nav ul li a:hover i{color:#60E6DA; transition: all 0.5s ease 0s;}
-nav ul li a i{padding-right:10px; color:#75737E; transition: all 0.5s ease 0s;}
+nav ul li a i{color:#75737E; transition: all 0.5s ease 0s;}
 
 .toggle-menu ul{display:table; width:25px;}
 .toggle-menu ul li{width:100%; height:3px; background-color:#75737E; margin-bottom:4px;}
-.toggle-menu ul li:last-child{margin-bottom:0px;}section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}#burger{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
 
 input[type=checkbox], label{display:none;}
 
 @media only screen and (max-width: 1440px) {
-section{max-width:95%;}
+#burger{max-width:100%;}
 }
 
 @media only screen and (max-width: 980px) {
@@ -38,8 +38,8 @@ input[type=checkbox]:checked ~ nav {display:block;}
 nav{display:none; position:absolute; right:0px; top:53px; background-color:#75737E; padding:0px; z-index:99;}
 nav ul{width:auto;}
 nav ul li{float:none; padding:0px; width:100%; display:table;}
-nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
-nav ul li a i{color:#60E6DA; padding-right:13px;}
+nav ul li a{color:#FFF; font-size:15px; padding:auto; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 
 /* fin buger menu */
@@ -47,7 +47,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 
 /* @media screen and (max-width: 960px) {   à supprimer*/
 
-/* mise en page news */    
+/* mise en page news */
     .news{
         display: flex;
         justify-content: center;
@@ -70,7 +70,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 
     .event img{
         display: block;
-        max-width: 100%;
+      width: 100%;
         height: auto;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -102,7 +102,6 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
     .link_event{
         color: #60E6DA ;
     }
-}
 
 /* fin mise en page news */
 
@@ -127,7 +126,11 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
     width: 75% ;
     padding: 25px 0 ;
     text-align: center;
+
 }
+
+
+
 /* fin mise en page intro */
 
 /* mise en page locaux version mobile */
@@ -137,7 +140,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 }
 
 .locaux {
-    
+
     padding: 25px 0 ;
 }
 
@@ -146,7 +149,7 @@ nav ul li a i{color:#60E6DA; padding-right:13px;}
 }
 
 .locaux div{
-    width: 100% ;    
+    width: 100% ;
     display: flex ;
     flex-direction: column ;
     align-items: center ;
@@ -185,9 +188,12 @@ section {max-width: 90%;}
     width: 80%;
     background-color: #60E6DA;
 }
+.group_img_admin{
+    justify-content: space-evenly;
+}
 
 #residents {
-    margin: 0 10%;
+    /* margin: 10%; */
     padding: 1%;
 }
 
@@ -227,6 +233,10 @@ section {max-width: 90%;}
     margin-bottom: 10px;
 }
 
+.photos_resid {
+    opacity: 0.8
+}
+
 /*fin mise en page resident */
 
 /* @media only screen and (max-width: 360px) {
@@ -250,6 +260,7 @@ h1 {padding: 20px 0px;}
     flex-direction: row ;
     align-items: center ;
     padding: 25px 0 ;
+    
 }
 
 .imloimpaire {
@@ -271,16 +282,20 @@ h1 {padding: 20px 0px;}
   height: 100px;
   align-items: center;
   justify-content: space-evenly;
-  margin-right: 10%;
+
   align-items: center;
 
 }
-#contact{
+#mailme{
   background-color: #60E6DA;
   text-align: center;
   padding-top: 5%;
   justify-content: flex-start;
-
+  color: black;
+}
+#image_event{
+  width: 100%;
 }
 
 /* fin footer */
+/* footer responsive /*
