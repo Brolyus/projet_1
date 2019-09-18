@@ -57,42 +57,31 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 
     .event{
-        display: flex ;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
     }
-
-    .event p{
+    
+    .image_event{
         width: 90%;
-        text-align: justify;
+        margin: 20px;
+        border-radius: 10px;
     }
 
-    .event img{
-        display: block;
-      width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-bottom: 20px;
+    .text_event{
+        text-align: justify;
+        width: 90%;
+        margin: 20px;
     }
 
     .title_event{
+        margin-bottom: 30px;
         font-weight: bold;
-        font-size: 4vw;
     }
 
     .date{
-        margin-bottom: 0;
-        margin-top: 20px;
         font-weight: bold;
-        font-size: 3vw;
-
     }
-
-    .p_event{
-        font-size: 3vw;
-    }
-
 
     .other_event{
         text-align: center;
@@ -193,39 +182,31 @@ section {max-width: 90%;}
 }
 
 #residents {
-    /* margin: 10%; */
+    margin: 0 10%;
     padding: 1%;
 }
 
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
-    width: 90%;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
 .art_resid_impair p {
     margin-left: 10px;
-    /* background-color: #60E6DA; */
     text-align: center;
-    width: 60%;
 }
 
 .art_resid_pair {
     background-color: #D9EFFF;
     display: flex;
-    width: 90%;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
 }
 .art_resid_pair p {
     margin-right: 10px;
     text-align: center;
-    /* background-color: #D9EFFF; */
-    width: 60%;
 }
 
 #residents h2 {
