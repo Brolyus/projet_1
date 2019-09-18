@@ -48,7 +48,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 /* @media screen and (max-width: 960px) {   à supprimer*/
 
 /* mise en page news */
-    .news{
+  #news{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -109,18 +109,18 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 
 /* Mise en page intro version mobile*/
-.intro {
+#intro {
     display: flex;
     flex-direction: column ;
     align-items: center;
     padding: 25px 0 ;
 }
 
-.intro img {
+#intro img {
     padding: 20px 0 ;
 }
 
-.intro p {
+#intro p {
     width: 75% ;
     padding: 25px 0 ;
 
@@ -129,20 +129,20 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page locaux version mobile */
 
-.locaux h2 {
+#locaux h2 {
     text-align: center ;
 }
 
-.locaux {
+#locaux {
 
     padding: 25px 0 ;
 }
 
-.locaux img {
+#locaux img {
     padding : 20px 0 ;
 }
 
-.locaux div{
+#locaux div{
     width: 100% ;
     display: flex ;
     flex-direction: column ;
@@ -150,7 +150,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     padding: 25px 0 ;
 }
 
-.locaux p {
+#locaux p {
     width : 75% ;
     padding: 25px 0 ;
 }
@@ -172,13 +172,13 @@ section {max-width: 90%;}
 
 /*mise en page residents */
 
-.admin {
+#admin {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.admin p {
+#admin p {
     width: 80%;
     background-color: #60E6DA;
 }
@@ -276,12 +276,38 @@ h1 {padding: 20px 0px;}
   background-color: #60E6DA;
   text-align: center;
   padding-top: 5%;
-  justify-content: flex-start;
+
   color: black;
 }
-#image_event{
-  width: 100%;
+#backup{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+#desktopfoot{
+  display: none;
 }
 
 /* fin footer */
-/* footer responsive /*
+
+@media only screen and (min-width: 750px) {
+#fotfot{
+  background-color: #75737E;
+  display: flex;
+  text-align: center;
+  border-style: inset;
+  align-items: center;
+  padding-bottom: 50px;
+
+}
+#mailme{
+  background-color: #75737E;
+
+  }
+#desktopfoot{
+  display: flex;
+  justify-content: flex-end;
+  border-style: inset;
+
+}
+}
