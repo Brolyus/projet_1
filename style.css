@@ -49,10 +49,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     h2{
         font-family: 'Catamaran', sans-serif;
-        font-weight: bold;Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias consequatur minus expedita libero asperiores nemo et cum sunt? Dicta consequatur magni alias numquam tenetur atque, consectetur totam quod cupiditate
-        font-size: 15px;Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias consequatur minus expedita libero asperiores nemo et cum sunt? Dicta consequatur magni alias numquam tenetur atque, consectetur totam quod cupiditate
-        margin: 20px 0 20px 20px;Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias consequatur minus expedita libero asperiores nemo et cum sunt? Dicta consequatur magni alias numquam tenetur atque, consectetur totam quod cupiditate
-        margin-top: 20px;Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias consequatur minus expedita libero asperiores nemo et cum sunt? Dicta consequatur magni alias numquam tenetur atque, consectetur totam quod cupiditate
+        font-weight: bold;
+        font-size: 15px;
+        margin: 20px 0 20px 20px;
+        margin-top: 50px;
         margin-bottom: 20px;
     }
     .news{
@@ -223,6 +223,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     width: 20%;
 }
 
+/* .art_resid_impair span{
+    color:black;
+} */
+
 /*fin mise en page resident */
 
 
@@ -299,7 +303,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 }
 
-/* fin mise en page desktop locaux */
+/* fin mise en page desktop locaux / residents*/
 
 /*footer */
 
@@ -416,5 +420,17 @@ margin-top: 20px;
     color:black;
 }
 
-}
+
 /* fin mise en page news */
+
+/* AJOUTS POUR TEST MISE EN PAGE FINALE*/
+
+header {
+    margin-bottom: 0px;
+    }
+.burger {
+    height: 185px;
+    max-width: 100%;
+}
+
+}
