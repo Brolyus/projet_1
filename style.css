@@ -64,12 +64,16 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         width: 100%;
         margin: 20px;
         border-radius: 10px;
+        border-width:1px 3px 3px 1px;
+        border-style:solid;
+        border-color:black;
     }
 
     .text_event{
         text-align: justify;
         width: 90%;
         margin: 0 auto 50px auto;
+        font-family: 'Catamaran', sans-serif;
     }
 
     .title_event{
@@ -83,7 +87,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     .other_event{
         text-align: center;
-        font-size: 3vw;
     }
 
     .link_event{
@@ -110,7 +113,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 #intro p {
     width: 75% ;
     padding: 25px 0 ;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -122,27 +125,24 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     text-align: center ;
 }
 
-#locaux {
 
-    padding: 25px 0 ;
-}
-
-#locaux img {
-    padding : 20px 0 ;
-}
-
-.imlopaire , .imloimpaire {
+.imlo {
     width: 100% ;
     display: flex ;
     flex-direction: column ;
     align-items: center ;
-    padding: 25px 0 ;
+    padding: 10px 0 ;
+     
 }
 
 #locaux p {
-    width : 75% ;
-    padding: 25px 0 ;
+        text-align: justify;
+        width: 75%;
+        margin: 0 auto 50px auto;
+        padding: 15px 0 ;
 }
+
+
 /*fin mise en page locaux version mobile */
 
 
@@ -168,11 +168,15 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     text-align: center;
 
 }
+
 .group_img_admin{
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
@@ -182,7 +186,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 .art_resid_impair p {
     margin-left: 10px;
-    text-align: center;
     color: white;
     font-family: 'Catamaran', sans-serif;
 }
@@ -194,7 +197,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 .art_resid_pair p {
     margin-right: 10px;
-    text-align: center;
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -216,6 +218,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page desktop locaux */
 @media only screen and (min-width: 960px) {
+<<<<<<< HEAD
     .imlopaire {
     width: 100% ;
     display: flex ;
@@ -223,15 +226,26 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     align-items: center ;
     padding: 25px 0 ;
 
+=======
+    
+    
+    #locaux img {
+        width: 700px ;
+        margin: 20px ;
+        border-radius: 10px ;
     }
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 
-    .imloimpaire {
-    width: 100% ;
-    display : flex ;
-    flex-direction : row-reverse ;
-    align-items: center ;
-    padding : 25px 0 ;
+    .imlo {
+        display: flex ;
+        flex-direction: row ;
+        
+>>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
+    }
+
+    #locaux p {
+        width: 100% ;
+        margin: 50px auto 50px auto ;
+        text-align: justify ;
     }
 
     #admin img {
@@ -243,13 +257,14 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         width: 200px;
         height: 280px;
     }
-.imloimpaire p {
-    margin-right: 5% ;
-}
 
-.imlopaire p {
+    .imloimpaire p {
+    margin-right: 5% ;
+    }
+
+    .imlopaire p {
     margin-left: 5% ;
-}
+    }
 
 }
 
@@ -326,12 +341,26 @@ ul {
 #mailme{
   display: none;
   }
+<<<<<<< HEAD
+=======
+#desktopfoot{
+  display: flex;
+  justify-content: flex-start;
+  border-style: inset;
+  background-color: #75737E;
+>>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 
 
+<<<<<<< HEAD
 .iframemap{
 margin-left: 220PX;
 box-shadow: 1px 1px 12px #60E6DA;
 margin-top: 20px;
+=======
+#logoquar{
+  width: 150px;
+  height: 150px;
+>>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 }
 }
 
@@ -340,7 +369,10 @@ margin-top: 20px;
 
 .event{
     flex-direction: row;
+<<<<<<< HEAD
 
+=======
+>>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 }
 
 .image_event{
@@ -352,4 +384,52 @@ margin-top: 20px;
     margin: 50px auto 50px auto;
 }
 /* fin mise en page news */
+
+/* Mise en page admin*/
+
+#admin img {
+    width: 300px;
+    height: 300px;
+    margin: 0 100px;
 }
+
+.photos_resid {
+    width: 200px;
+    height: 280px;
+}
+
+#admin p {
+    background-color: white;
+    color:black;
+}
+
+
+/*mise en page residents desktop*/
+#residents {
+    background-color: #60E6DA;
+    color:white;
+    margin: 50px 0;
+}
+
+#residents article {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: 10px;    
+}
+
+#residents article img{
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#residents article p{
+    width: 90%;
+    color: white;
+}
+
+
+
+}
+/* fin mise en page news */
