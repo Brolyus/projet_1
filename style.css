@@ -106,6 +106,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 }
 
+#intro h2 {
+    font-family: 'Catamaran', sans-serif;
+}
+
 #intro img {
     padding: 20px 0 ;
 }
@@ -114,6 +118,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     width: 75% ;
     padding: 25px 0 ;
     text-align: justify;
+    font-family: 'Catamaran', sans-serif;
 
 }
 
@@ -123,6 +128,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 #locaux h2 {
     text-align: center ;
+    font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -135,13 +141,22 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
      
 }
 
+#locaux img {
+    width: 100% ;
+}
+
 #locaux p {
         text-align: justify;
         width: 75%;
         margin: 0 auto 50px auto;
         padding: 15px 0 ;
+        font-family: 'Catamaran', sans-serif;
+        
 }
 
+#locaux {
+    background: linear-gradient(to left, #EEFFE9 20%,white 90%);
+}
 
 /*fin mise en page locaux version mobile */
 
@@ -173,10 +188,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
@@ -218,15 +229,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page desktop locaux */
 @media only screen and (min-width: 960px) {
-<<<<<<< HEAD
-    .imlopaire {
-    width: 100% ;
-    display: flex ;
-    flex-direction: row ;
-    align-items: center ;
-    padding: 25px 0 ;
-
-=======
     
     
     #locaux img {
@@ -239,7 +241,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         display: flex ;
         flex-direction: row ;
         
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
     }
 
     #locaux p {
@@ -247,6 +248,8 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         margin: 50px auto 50px auto ;
         text-align: justify ;
     }
+
+    
 
     #admin img {
         width: 300px;
@@ -258,13 +261,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         height: 280px;
     }
 
-    .imloimpaire p {
+    .imlo {
     margin-right: 5% ;
     }
 
-    .imlopaire p {
-    margin-left: 5% ;
-    }
 
 }
 
@@ -341,38 +341,21 @@ ul {
 #mailme{
   display: none;
   }
-<<<<<<< HEAD
-=======
-#desktopfoot{
-  display: flex;
-  justify-content: flex-start;
-  border-style: inset;
-  background-color: #75737E;
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 
 
-<<<<<<< HEAD
+
 .iframemap{
 margin-left: 220PX;
 box-shadow: 1px 1px 12px #60E6DA;
 margin-top: 20px;
-=======
-#logoquar{
-  width: 150px;
-  height: 150px;
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 }
-}
+
 
 
 /* mise en page news */
 
 .event{
     flex-direction: row;
-<<<<<<< HEAD
-
-=======
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 }
 
 .image_event{
@@ -428,7 +411,6 @@ margin-top: 20px;
     width: 90%;
     color: white;
 }
-
 
 
 }
