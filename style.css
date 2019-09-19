@@ -13,7 +13,7 @@ nav ul{display:table; float:right;}
 nav ul li{float:left;}
 nav ul li:last-child{padding-right:0px;}
 nav ul li a{color:black; font-size:18px; padding: 15px 10px; display:flex; justify-content: flex-start;align-items: center;transition: all 0.5s ease 0s;}
-nav ul li a:hover{background-color:#60E6DA; color:white; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#75737E; color:white; transition: all 0.5s ease 0s;}
 nav ul li a:hover i{color:#60E6DA; transition: all 0.5s ease 0s;}
 nav ul li a i{color:#75737E; transition: all 0.5s ease 0s;}
 
@@ -25,9 +25,10 @@ input[type=checkbox], label{display:none;}
 
 @media only screen and (max-width: 1440px) {
 #burger{max-width:100%;}
+
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 920px) {
 header{padding:20px 0px;}
 #logo{padding:0px;}
 input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
@@ -171,11 +172,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
@@ -225,10 +222,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     flex-direction: row ;
     align-items: center ;
     padding: 25px 0 ;
-<<<<<<< HEAD
 
-}
-=======
     }
 >>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
 
@@ -268,7 +262,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
   height: 100px;
   align-items: center;
   justify-content: center;
-background-color: #60E6DA;
+  background-color: #60E6DA;
 
 
 }
@@ -289,7 +283,9 @@ background-color: #60E6DA;
 
 
 }
-
+footer{
+  background-color: #60E6DA;
+}
 
 /* fin footer */
 
@@ -297,56 +293,54 @@ background-color: #60E6DA;
 #fotfot{
   background-color: #75737E;
   display: flex;
-  align-items: flex-end;
-  border-style: inset;
-
-  padding-bottom: 50px;
-
+  background: linear-gradient(to right, #60E6DA 0.1%,white 90%);
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  padding: 10px;
 }
-
 
  #desktopfoot{
   display: flex;
-  background-color:#75737E;
+  color: white;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-
+  background: linear-gradient(to right, #60E6DA 0.1%,white 90%);
+  text-shadow: #60C9E6 1px 1px, #60C9E6 -1px 1px, #60C9E6 -1px -1px, #60C9E6 1px -1px;
 }
+#desktopfoot p{
+  margin-top: 30px;
+}
+
 ul {
   margin-top: 50px;
   margin-right: 150px;
-
-
 }
+
 #burger{
-  border-style: solid;
+
+  background: linear-gradient(to left, #60E6DA 0.1%,white 90%);
 }
+
 #mailme{
-
   display: none;
-
   }
-#desktopfoot{
-  display: flex;
-  justify-content: flex-start;
-  border-style: inset;
-<<<<<<< HEAD
-  background-color: #75737E;
 
+
+.iframemap{
+margin-left: 220PX;
+box-shadow: 1px 1px 12px #60E6DA;
+margin-top: 20px;
+}
 }
 
-#logoquar{
-  width: 150px;
-  height: 150px;
-=======
-}
 
 /* mise en page news */
 
 .event{
     flex-direction: row;
->>>>>>> 30b0493e665f2782651fc2ed2a04a7cfabdf8f4c
+
 }
 
 .image_event{
