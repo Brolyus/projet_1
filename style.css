@@ -1,9 +1,9 @@
 /* Burger menu */
 
 *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
-body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
-#burger{width:97%; max-width:97%; margin:0px auto; display:table; position:relative;}
-h1{margin:0px auto; display:table; font-size:26px; padding:20px 0px; color:#75737E; text-align:center;}
+body{margin:0px; padding:0px; font-family:'Indie Flower', sans-serif;}
+#burger{width:100%; max-width:100%; margin:0px auto; display:table; position:relative;}
+h1{margin:0px auto; display:table; font-size:26px; padding:20px 0px; color:#60E6DA; text-align:center;}
 h1 span{font-weight:500;}
 
 header{width:99.5%; display:table; background-color:white; margin-bottom:10px; }
@@ -13,9 +13,9 @@ nav ul{display:table; float:right;}
 nav ul li{float:left;}
 nav ul li:last-child{padding-right:0px;}
 nav ul li a{color:black; font-size:18px; padding: 15px 10px; display:flex; justify-content: flex-start;align-items: center;transition: all 0.5s ease 0s;}
-nav ul li a:hover{background-color:#75737E; color:white; transition: all 0.5s ease 0s;}
-nav ul li a:hover i{color:#60E6DA; transition: all 0.5s ease 0s;}
-nav ul li a i{color:#75737E; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#75737E; color:white; transition: all 0.5s ease 0s;border-radius :10px}
+nav ul li a:hover i{color: black; transition: all 0.5s ease 0s;}
+nav ul li a i{color:#60E6DA transition: all 0.5s ease 0s;}
 
 .toggle-menu ul{display:table; width:25px;}
 .toggle-menu ul li{width:100%; height:3px; background-color:black; margin-bottom:4px;}
@@ -28,7 +28,7 @@ input[type=checkbox], label{display:none;}
 
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 961px) {
 header{padding:20px 0px;}
 #logo{padding:0px;}
 input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
@@ -36,10 +36,10 @@ input[type=checkbox]:fous{background:none;}
 label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
 input[type=checkbox]:checked ~ nav {display:block;}
 
-nav{display:none; position:absolute; right:0px; top:53px; background-color:#75737E; padding:0px; z-index:99;}
+nav{display:none; position:absolute; right:0px; top:53px; background: linear-gradient( white  10%,#60E6DA );; padding:0px; z-index:99;border-radius :10px}
 nav ul{width:auto;}
 nav ul li{float:none; padding:0px; width:100%; display:table;}
-nav ul li a{color:#FFF; font-size:15px; padding:auto; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a{color:black; font-size:15px; padding:auto; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
 nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 
@@ -132,7 +132,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     flex-direction: column ;
     align-items: center ;
     padding: 10px 0 ;
-     
+
 }
 
 #locaux p {
@@ -173,10 +173,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 .art_resid_impair {
     background-color: #60E6DA;
     display: flex;
@@ -218,17 +214,8 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page desktop locaux */
 @media only screen and (min-width: 960px) {
-<<<<<<< HEAD
-    .imlopaire {
-    width: 100% ;
-    display: flex ;
-    flex-direction: row ;
-    align-items: center ;
-    padding: 25px 0 ;
 
-=======
-    
-    
+
     #locaux img {
         width: 700px ;
         margin: 20px ;
@@ -238,8 +225,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     .imlo {
         display: flex ;
         flex-direction: row ;
-        
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
+
     }
 
     #locaux p {
@@ -277,16 +263,16 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
   height: 100px;
   align-items: center;
   justify-content: center;
-  background-color: #60E6DA;
-
+  background: linear-gradient( white ,#60E6DA  90%);
 
 }
-#mailme{
+#mailme {
   background-color: #60E6DA;
   text-align: center;
   padding-top: 5%;
-
   color: black;
+
+
 }
 #backup{
   position: fixed;
@@ -296,15 +282,12 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 #desktopfoot{
   display: none;
 
+}
 
-}
-footer{
-  background-color: #60E6DA;
-}
 
 /* fin footer */
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 961px) {
 #fotfot{
   background-color: #75737E;
   display: flex;
@@ -322,10 +305,13 @@ footer{
   justify-content: flex-start;
   flex-wrap: wrap;
   background: linear-gradient(to right, #60E6DA 0.1%,white 90%);
-  text-shadow: #60C9E6 1px 1px, #60C9E6 -1px 1px, #60C9E6 -1px -1px, #60C9E6 1px -1px;
+  flex-direction: row;
+  padding-bottom: 10px;
 }
 #desktopfoot p{
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+
 }
 
 ul {
@@ -341,26 +327,13 @@ ul {
 #mailme{
   display: none;
   }
-<<<<<<< HEAD
-=======
-#desktopfoot{
-  display: flex;
-  justify-content: flex-start;
-  border-style: inset;
-  background-color: #75737E;
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 
 
-<<<<<<< HEAD
 .iframemap{
-margin-left: 220PX;
+margin-left: 200px;
 box-shadow: 1px 1px 12px #60E6DA;
-margin-top: 20px;
-=======
-#logoquar{
-  width: 150px;
-  height: 150px;
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
+margin-top: 0px;
+
 }
 }
 
@@ -369,10 +342,6 @@ margin-top: 20px;
 
 .event{
     flex-direction: row;
-<<<<<<< HEAD
-
-=======
->>>>>>> df0302952eb984f04704133c654c5437a3a3e24c
 }
 
 .image_event{
@@ -415,7 +384,7 @@ margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 
 #residents article img{
