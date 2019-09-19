@@ -109,7 +109,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 #intro p {
     width: 75% ;
     padding: 25px 0 ;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -121,27 +121,24 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     text-align: center ;
 }
 
-#locaux {
 
-    padding: 25px 0 ;
-}
-
-#locaux img {
-    padding : 20px 0 ;
-}
-
-.imlopaire , .imloimpaire {
+.imlo {
     width: 100% ;
     display: flex ;
     flex-direction: column ;
     align-items: center ;
-    padding: 25px 0 ;
+    padding: 10px 0 ;
+     
 }
 
 #locaux p {
-    width : 75% ;
-    padding: 25px 0 ;
+        text-align: justify;
+        width: 75%;
+        margin: 0 auto 50px auto;
+        padding: 15px 0 ;
 }
+
+
 /*fin mise en page locaux version mobile */
 
 
@@ -215,20 +212,24 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page desktop locaux */
 @media only screen and (min-width: 960px) {
-    .imlopaire {
-    width: 100% ;
-    display: flex ;
-    flex-direction: row ;
-    align-items: center ;
-    padding: 25px 0 ;
+    
+    
+    #locaux img {
+        width: 700px ;
+        margin: 20px ;
+        border-radius: 10px ;
     }
 
-    .imloimpaire {
-    width: 100% ;
-    display : flex ;
-    flex-direction : row-reverse ;
-    align-items: center ;
-    padding : 25px 0 ;
+    .imlo {
+        display: flex ;
+        flex-direction: row ;
+        
+    }
+
+    #locaux p {
+        width: 100% ;
+        margin: 50px auto 50px auto ;
+        text-align: justify ;
     }
 
     #admin img {
@@ -241,13 +242,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         height: 280px;
     }
 
-    .imloimpaire p {
-    margin-right: 5% ;
-    }
-
-    .imlopaire p {
-    margin-left: 5% ;
-    }
 
 }
 
@@ -346,5 +340,6 @@ ul {
     width: 100%;
     margin: 50px auto 50px auto;
 }
-/* fin mise en page news */
+
 }
+/* fin mise en page news */
