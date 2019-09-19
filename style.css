@@ -63,12 +63,16 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         width: 100%;
         margin: 20px;
         border-radius: 10px;
+        border-width:1px 3px 3px 1px;
+        border-style:solid;
+        border-color:black;
     }
 
     .text_event{
         text-align: justify;
         width: 90%;
         margin: 0 auto 50px auto;
+        font-family: 'Catamaran', sans-serif;
     }
 
     .title_event{
@@ -82,7 +86,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     .other_event{
         text-align: center;
-        font-size: 3vw;
     }
 
     .link_event{
