@@ -178,7 +178,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 .art_resid_impair p {
     margin-left: 10px;
-    text-align: center;
     color: white;
     font-family: 'Catamaran', sans-serif;
 }
@@ -190,7 +189,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 .art_resid_pair p {
     margin-right: 10px;
-    text-align: center;
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -242,6 +240,13 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         height: 280px;
     }
 
+    .imloimpaire p {
+    margin-right: 5% ;
+    }
+
+    .imlopaire p {
+    margin-left: 5% ;
+    }
 
 }
 
@@ -340,6 +345,53 @@ ul {
     width: 100%;
     margin: 50px auto 50px auto;
 }
+/* fin mise en page news */
+
+/* Mise en page admin*/
+
+#admin img {
+    width: 300px;
+    height: 300px;
+    margin: 0 100px;
+}
+
+.photos_resid {
+    width: 200px;
+    height: 280px;
+}
+
+#admin p {
+    background-color: white;
+    color:black;
+}
+
+
+/*mise en page residents desktop*/
+#residents {
+    background-color: #60E6DA;
+    color:white;
+    margin: 50px 0;
+}
+
+#residents article {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: 10px;    
+}
+
+#residents article img{
+    width: 700px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#residents article p{
+    width: 90%;
+    color: white;
+}
+
+
 
 }
 /* fin mise en page news */
