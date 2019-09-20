@@ -51,9 +51,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
         font-family: 'Catamaran', sans-serif;
         font-weight: bold;
         font-size: 15px;
-        margin: 20px 0 20px 20px;
-        margin-top: 50px;
-        margin-bottom: 20px;
+        margin: 50px 0 50px 10%;
     }
     .news{
         display: flex;
@@ -71,7 +69,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     .image_event{
         width: 100%;
-        margin: 20px;
+        margin: 0 auto 20px auto;
         border-radius: 10px;
         border-width:1px 3px 3px 1px;
         border-style:solid;
@@ -80,8 +78,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     .text_event{
         text-align: justify;
-        width: 90%;
-        margin: 0 auto 50px auto;
+        margin: 0 20px 50px 10%;
         font-family: 'Catamaran', sans-serif;
     }
 
@@ -96,6 +93,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     .other_event{
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .link_event{
@@ -110,9 +108,6 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
     width: 100% ;
     display: flex ;
     flex-direction: column ;
-    align-items: center ;
-    padding: 25px 0 ;
-
 }
 
 #intro h2 {
@@ -124,10 +119,10 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 
 #intro p {
-    width: 75% ;
-    padding: 25px 0 ;
+    padding: 0 0 15px 0 ;
     text-align: justify;
     font-family: 'Catamaran', sans-serif;
+    margin: 0 20px 0 10%;
 
 }
 
@@ -135,10 +130,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 /* mise en page locaux version mobile */
 
-#locaux h2 {
-    text-align: center ;
-    font-family: 'Catamaran', sans-serif;
-}
+
 
 
 .imlo {
@@ -152,13 +144,13 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 #locaux img {
     width: 100% ;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #locaux p {
         text-align: justify;
-        width: 75%;
-        margin: 0 auto 50px auto;
-        padding: 15px 0 ;
+        margin: 0 20px 50px 10%;
         font-family: 'Catamaran', sans-serif;
         
 }
@@ -239,7 +231,7 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
 
     #locaux img {
-        width: 700px ;
+        width: 30%;
         margin: 20px ;
         border-radius: 10px ;
     }
@@ -252,8 +244,9 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 
     #locaux p {
         width: 100% ;
-        margin: 50px auto 50px auto ;
+        margin: 50px 15px 50px auto ;
         text-align: justify ;
+        font-size: 1.1em;
     }
 
     
@@ -337,6 +330,15 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 /* fin footer */
 
 @media only screen and (min-width: 961px) {
+
+h2{
+    font-size: 30px;
+}
+
+#intro p{
+    font-size: 1.1em;
+}
+
 #fotfot{
   background-color: #75737E;
   display: flex;
@@ -390,15 +392,19 @@ margin-top: 20px;
 
 .event{
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .image_event{
-    width: 700px;
+    width: 30%;
+    margin: 20px;
 }
 
 .text_event{
     width: 100%;
-    margin: 50px auto 50px auto;
+    padding-bottom: 20px;
+    margin: 0 15px 0 0;
+    font-size: 1.1em;
 }
 /* fin mise en page news */
 
