@@ -67,5 +67,25 @@ const scroll = ScrollReveal({
   scroll.reveal ('h2');
    
   scroll.reveal ('.photos_resid') 
+
+  scroll.reveal ('.news')
+
+  scroll.reveal ('.text_intro')
+
+  scroll.reveal ('.imlo')
+
+  scroll.reveal ('.image_event')
+
+  scroll.reveal ('.title_event')
+
+  scroll.reveal ('.date')
+
+  scroll.reveal ('.p_event')
+
+  scroll.reveal ('.other_event')
+
+  scroll.reveal ('#fotfoot')
+
+  scroll.reveal ('#desktopfoot')
   
-  
+  scroll.reveal ('.p_scroll')
