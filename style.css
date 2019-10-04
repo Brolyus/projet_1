@@ -143,15 +143,22 @@ nav ul li a i{color:#60E6DA; padding-right:auto;}
 }
 
 #locaux img {
-    width: 100% ;
+    width: 96% ;
     border-radius: 10px;
     margin-bottom: 20px;
+    border: 2px solid black;
+    box-shadow: #D6E6D1 12px 12px 0px;
 }
 
 #locaux p {
         text-align: justify;
         margin: 0 20px 50px 10%;
         font-family: 'Catamaran', sans-serif;
+        border: 2px solid black;
+  box-shadow: #D6E6D1 12px 12px 0px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 6px;
         
 }
 
@@ -461,3 +468,6 @@ header {
         font-size: 1.5em;
     }
 }
+
+
+
